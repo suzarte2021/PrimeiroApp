@@ -1,0 +1,16 @@
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<div>
+    <h1>Primeiro App</h1>
+<p>Bem vindo ao Programa {{nome}} </p>
+</div>
+<script>
+    new Vue({  // <--Instanciando o Vue  -->
+        el: '#app', // <--Elemento-->
+        data(){
+            return{
+                nome: 'Novo cliente'
+            }
+        }
+    })
+</script>
